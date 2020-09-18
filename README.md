@@ -1,4 +1,7 @@
-# emacs-abyss-theme #
+# emacs-abyss-hicontrast #
+
+This is a (WIP) fork of [emacs-abyss-theme]() that increases the contrast.
+Note: No changes are currently implemented.
 
 [![MELPA](http://melpa.org/packages/abyss-theme-badge.svg)](http://melpa.org/#/abyss-theme)
 
