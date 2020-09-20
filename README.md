@@ -10,6 +10,7 @@ Richter's [lush][2] theme.
 
 ## Installation ##
 
+### Melpa
 If you use [MELPA][1], just do:
 
    `M-x package-install [RET] abyss-theme [RET]`
@@ -24,6 +25,17 @@ default by adding the following to your Emacs configuration:
 
    (load-theme #'abyss t)
 ```
+### Doom Emacs
+Add the following changes to your doom configs (SPC f P)
+``` lisp
+; packages.el
+(package! abyss-hicontrast
+  :recipe (:host github :repo"freyvalk/emacs-abyss-hicontrast"))
+  
+; config.el
+(setq doom-theme 'abyss-hicontrast)
+```
+Then run M-x doom/reload (SPC h r r)
 
 ## Screenshots ##
 

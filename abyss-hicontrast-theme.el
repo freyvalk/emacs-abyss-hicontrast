@@ -8,17 +8,10 @@
 ;; URL: https://github.com/mgrbyte/emacs-abyss-hicontrast-theme
 ;; License: GPL-3+
 
-;;; Commentary:
-
-;; A dark theme with contrasting colours for Emacs24 based on the
-;; ``Lush`` theme by Andre Richter, using the same colours palette
-;; as the the built-in `dichromacy' theme; intended to be suitable
-;; for red/green colour blind users.
-
 ;;; Code:
 
 (deftheme abyss-hicontrast
-  "Dark background and contrasting colours.")
+  "Higher contrast fork of abyss")
 
 (let* ((abyss-hicontrast/orange "#e69f00")
        (abyss-hicontrast/skyblue "#56b4e9")
@@ -30,8 +23,8 @@
        (abyss-hicontrast/redpurple "#cc79a7")
        (abyss-hicontrast/scarlet "#FF1A00")
        (abyss-hicontrast/bluegray "#848ea9")
-       (abyss-hicontrast/background "#010000")
-       (abyss-hicontrast/background2 "#010000")
+       (abyss-hicontrast/background "#030000")
+       (abyss-hicontrast/background2 "#050000")
        (abyss-hicontrast/foreground "#bbe0f0")
        (abyss-hicontrast/hl-line "#00f000")
        (abyss-hicontrast/magenta "#ff00ff")
@@ -44,7 +37,7 @@
    `(bold-italic ((t (:bold t))))
    `(border-glyph ((t (nil))))
    `(default
-      ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss/background))))
+      ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss-hicontrast/background))))
    `(fringe ((t (:background ,abyss-hicontrast/background2))))
    `(buffers-tab
      ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss/background))))
