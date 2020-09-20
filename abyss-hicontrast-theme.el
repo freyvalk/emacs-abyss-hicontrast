@@ -29,8 +29,8 @@
        (abyss-hicontrast/hl-line "#748074")
        (abyss-hicontrast/hilite "#dd5542")
        (abyss-hicontrast/white "#ffffff")
-       (abyss-hicontrast/green "#00ff00"))
-       (abyss/magenta "#ff00ff")
+       (abyss-hicontrast/green "#00ff00")
+       (abyss/magenta "#ff00ff"))
   (custom-theme-set-faces
    `abyss-hicontrast
    `(bold ((t (:bold t))))
