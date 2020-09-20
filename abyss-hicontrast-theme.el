@@ -13,12 +13,12 @@
 (deftheme abyss-hicontrast
   "Higher contrast fork of abyss")
 
-(let* ((abyss-hicontrast/orange "#e69f00")
-       (abyss-hicontrast/skyblue "#56b4e9")
-       (abyss-hicontrast/bluegreen "#009e73")
-       (abyss-hicontrast/yellow "#f8ec59")
-       (abyss-hicontrast/vanilla-cream "#fcfbe3")
-       (abyss-hicontrast/blue "#0072b2")
+(let* ((abyss-hicontrast/orange "#ff8f00")
+       (abyss-hicontrast/skyblue "#00a5ff")
+       (abyss-hicontrast/bluegreen "#00ffba")
+       (abyss-hicontrast/yellow "#ffec00")
+       (abyss-hicontrast/vanilla-cream "#fffee6")
+       (abyss-hicontrast/blue "#1919ff")
        (abyss-hicontrast/vermillion "#d55e00")
        (abyss-hicontrast/redpurple "#cc79a7")
        (abyss-hicontrast/scarlet "#FF1A00")
