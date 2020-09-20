@@ -39,7 +39,7 @@
       ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss-hicontrast/background))))
    `(fringe ((t (:background ,abyss-hicontrast/background2))))
    `(buffers-tab
-     ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss/background))))
+     ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss-hicontrast/background))))
    `(font-lock-builtin-face ((t (:foreground ,abyss-hicontrast/vanilla-cream))));
    `(font-lock-comment-delimiter-face ((t (:foreground ,abyss-hicontrast/vermillion :italic t))))
    `(font-lock-comment-face ((t (:foreground ,abyss-hicontrast/vermillion :italic t))))
@@ -55,22 +55,22 @@
    `(font-lock-negation-char-face ((t (:foreground ,abyss-hicontrast/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss-hicontrast/scarlet :bold t))))
    `(gui-element
-        ((t (:foreground ,abyss-hicontrast/background2 :background ,abyss/foreground))))
+        ((t (:foreground ,abyss-hicontrast/background2 :background ,abyss-hicontrast/foreground))))
    `(mode-line
-     ((t (:foreground ,abyss-hicontrast/background2 :background ,abyss/skyblue :box nil))))
+     ((t (:foreground ,abyss-hicontrast/background2 :background ,abyss-hicontrast/skyblue :box nil))))
    `(mode-line-highlight
      ((t (:foreground ,abyss-hicontrast/vanilla-cream :box nil))))
    `(mode-line-inactive
-     ((t (:foreground ,abyss-hicontrast/redpurple :background ,abyss/background2 :box nil))))
+     ((t (:foreground ,abyss-hicontrast/redpurple :background ,abyss-hicontrast/background2 :box nil))))
    `(text-cursor
-        ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss/background))))
+        ((t (:foreground ,abyss-hicontrast/foreground :background ,abyss-hicontrast/background))))
    `(region
-     ((t (:foreground ,abyss-hicontrast/background :background ,abyss/redpurple))))
+     ((t (:foreground ,abyss-hicontrast/background :background ,abyss-hicontrast/redpurple))))
    `(italic ((t (nil))))
    `(left-margin ((t (nil))))
    `(toolbar ((t (nil))))
    `(whitespace-tab ((t (:background ,abyss-hicontrast/background))))
-   `(whitespace-line ((t (:foreground ,abyss-hicontrast/white :background ,abyss/hilite))))
+   `(whitespace-line ((t (:foreground ,abyss-hicontrast/white :background ,abyss-hicontrast/hilite))))
    `(magit-item-highlight ((t (:inherit region)))))
   `(underline ((nil (:underline nil)))))
 
