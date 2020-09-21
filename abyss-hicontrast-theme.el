@@ -24,7 +24,7 @@
        (abyss-hicontrast/scarlet "#FF1A00")
        (abyss-hicontrast/bluegray "#80a2ff")
        (abyss-hicontrast/background "#030000")
-       (abyss-hicontrast/background2 "#050000")
+       (abyss-hicontrast/background2 "#040000")
        (abyss-hicontrast/foreground "#c7eeff")
        (abyss-hicontrast/hl-line "#748074")
        (abyss-hicontrast/hilite "#dd5542")
